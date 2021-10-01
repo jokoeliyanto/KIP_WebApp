@@ -10,10 +10,14 @@ import pickle
 
 
 # Menampilkan Gambar
-image =Image.open('D:/My Activity/Python Notebook/Streamlit/[4] Klasifikasi KIP/header KIP.png')
-st.image(image, caption='ML', use_column_width=True)
+# image =Image.open('D:/My Activity/Python Notebook/Streamlit/[4] Klasifikasi KIP/header KIP.png')
+# st.image(image, caption='ML', use_column_width=True)
 
 # Judul & Sub Judul Halaman Web App
+st.header("""
+Model Klasifikasi untuk Pendaftaran Program Beasiswa KIP.
+""")
+
 st.write("""
 Ini merupakan program untuk melakukan prediksi penerimaan siswa calon peserta program KIP.
 """)
